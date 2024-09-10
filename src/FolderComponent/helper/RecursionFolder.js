@@ -12,7 +12,7 @@ export default function RecursionFolder({explorer,clickedOutside,setClickedOutsi
     const[isFolder,setIsFolder]=useState(false)
 const handleFormData=useHandleFormData()
     const folderImage=<FaFolder className=" text-yellow-500 ml-2"/>
-   console.log(isFolder)
+  
   
 
     return(
